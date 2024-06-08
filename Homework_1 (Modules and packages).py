@@ -14,8 +14,8 @@
 Бесконечность можно импортировать из встроенной библиотеки math (from math import inf)
 """
 
-from true_math import divide as tm_div
-from fake_math import divide as fm_div
+from Homework_1_true_math import divide as tm_div
+from Homework_1_fake_math import divide as fm_div
 
 if __name__ == '__main__':
     result1 = fm_div(69, 3)
